@@ -12,7 +12,7 @@
     <artifactId>emc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>emc</name>
-    <description>emc</description>
+    <description>Project Emergency Medical Care</description>
     <properties>
         <java.version>11</java.version>
     </properties>
