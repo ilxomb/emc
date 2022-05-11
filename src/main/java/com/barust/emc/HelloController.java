@@ -20,6 +20,11 @@ public class HelloController {
     }
 }
 /*
+./mvnw spring-boot:run
+
+./mvnw clean package -DskipTests
+
+
 ./mvnw package && java -jar target/emc-0.0.1-SNAPSHOT.jar
 
 --Dockerfile
@@ -45,4 +50,7 @@ docker images
 docker login -u shzd
 
 docker push shzd/emc:0.0.1
+
+
+docker-compose up --build
  */

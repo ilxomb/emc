@@ -2,7 +2,7 @@ version: '2'
 
 services:
   app:
-    image: 'docker-spring-boot-postgres:latest'
+    image: 'shzd/emc-docker-postgres:latest'
     build:
       context: .
     container_name: emc
@@ -22,5 +22,5 @@ services:
     environment:
       - POSTGRES_USER=compose-postgres
       - POSTGRES_PASSWORD=compose-postgres
-    ports:
-      - "5432:5432"
+#    ports:
+#      - "5432:5432"
